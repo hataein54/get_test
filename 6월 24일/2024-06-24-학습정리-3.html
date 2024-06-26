@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        *{
+            margin: 0;
+        }
+        
+        #all{
+            width: 900px;
+        }
+
+        #header1{
+            width: 100px;
+            height: 100px;
+            float: left;
+            border: 1px solid gray;
+            border-radius: 20px 0 20px 0;
+        }
+
+        #header2{
+            width: 100px;
+            height: 100px;
+            float: right;
+            border: 1px solid gray;
+            border-radius: 0 20px 0 20px;
+        }
+
+        #header3{
+            height: 100px;
+            overflow: hidden;
+            border: 1px solid gray;
+            border-radius: 0 0 20px 20px;
+        }
+        
+
+        
+        #content1{
+            width: 100px;
+            height: 200px;
+            float: left;
+            border: 1px solid gray;
+            border-radius: 0 20px 20px 0;
+        }        
+        
+        #content2{
+
+            height: 200px;
+            overflow: hidden;
+            border: 1px solid gray;
+            border-radius: 20px 20px 20px 20px;
+        }
+        #content3{
+            float: right;
+            width: 100px;
+            height: 200px;
+            border: 1px solid gray;
+            border-radius: 20px 0 0 20px;
+        }
+             
+
+        #footer1{
+            width: 100px;
+            height: 100px;
+            float: left;
+            border: 1px solid gray;
+            border-radius: 0 20px 0 20px;
+        }
+
+        #footer2{
+            width: 100px;
+            height: 100px;
+            float: right;
+            border: 1px solid gray;
+            border-radius: 20px 0 20px 0;
+        }
+
+        #footer3{
+            height: 100px;
+            overflow: hidden;
+            border: 1px solid gray;
+            border-radius: 20px 20px 0 0;
+        }
+
+        ul li:last-child{
+            border-radius: 0 0 20px 20px;
+        }
+
+
+        li{
+            list-style: none;
+            text-align: center;
+        
+        }
+
+        #menu {
+            display: inline;
+            font-weight: bolder ;
+            padding-right: 50px;
+        }
+
+        #menu0{
+           text-align: center;
+          
+        }
+
+        #company{
+            text-align: left    ;
+            padding: 10px;
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+    
+    <div id="all"> 
+        <div id="header">
+            <ul>
+                <li><div id="header1">
+
+                </div></li>
+
+                <li><div id="header2">
+
+                </div></li>
+
+                <li><div id="header3">
+
+                </div></li>
+            </ul>
+        </div>
+
+        <div id="content">
+            <ul>
+                <li><div id="content1"></div></li>
+                <li><div id="content3"></div></li>
+
+
+
+                <li><div id="content2">
+                    <ul id="menu0">
+                        <li id="menu">menu1</li>
+                        <li id="menu">menu2</li>
+                        <li id="menu">menu3</li>
+                        <li id="menu"id="menu">menu4</li>
+                    </ul>
+
+                    <h2 id="company">하이서울브랜드</h2>
+
+                    <p>서울시와 서울산업진릉원(SBA)이 공동으로 지원하는 하이 서울브랜드 사업은 우수한 기술력과 상품력을 보유하고 있으나 고유브랜드 
+                        육성에 어려움을 겪고 있는 우수기업들이 서울시가 인정한 중소기업 공동브랜드링 하이서울브랜드를 활용하여 제품 경쟁력을 강화할 
+                        수 있도록 각종 홍보 마케팅을 지원하는 사업입니다.</p>
+
+                </div></li>
+            </ul>
+        </div>
+        
+
+        <div id="footer">
+            <ul>
+                <li><div id="footer1">
+                </div></li>
+
+                <li><div id="footer2">
+
+                </div></li>
+
+                <li><div id="footer3">
+
+            </div></li>
+            </ul>
+        
+        </div>
+    </div>
+    
+</body>
+</html>
