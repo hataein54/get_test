@@ -1,0 +1,10 @@
+body{
+    background-color: yellow;
+    color: azure;
+}
+@media screen and (min-width:1024px) {
+    body{
+        background-color: orange;
+    }
+    
+}
