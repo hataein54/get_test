@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 1000px;
+            margin: 0 auto;
+        }
+        header ul{
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+        }
+        header ul li{
+            padding: 0 20px;
+        }
+        header ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        header{
+            background-color: black;
+            color: white;
+            margin: 0;
+            height: 50px;
+            line-height: 50px;
+        }
+        img{
+            size: 60%;
+        }
+
+        #cafe{
+            width: 100%;
+            height: 400px;
+            border: 1px solid gray;
+            margin-top: -5px ;
+            position: relative;
+        }
+        #cafe h2{
+            position: absolute;
+            left: 40px;
+            top: 30px;
+            font-weight: bolder;
+        }
+        #cafe img{
+            position: absolute;
+            left: 90px;
+            top: 100px;
+        }
+        #time{
+            position: absolute;
+            right: 330px;
+            top: 100px;
+        }
+        .day{
+            position: absolute;
+            left: 357px;
+            top: 60px;
+        }
+        #holiday{
+            padding: 100px;
+            line-height: 52px;
+        }
+        span{
+            font-size: 0.8em;
+        }
+        #where{
+            width: 100%;
+            height: 400px;
+            border: 1px solid gray;
+            background-color: rgb(237, 237, 237);
+        }
+        #recommnd{
+            width: 100%;
+            height: 400px;
+            border: 1px solid gray;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="#">카페 소개</a></li>
+            <li><a href="#">오시는 길</a></li>
+            <li><a href="#">이 달의 추천</a></li>
+        </ul>
+    </header>
+    <img src="header.jpg" width="1000">
+    <div id="nav">
+        <div id="cafe">
+            <h2>카페 소개</h2>
+            <img src="coffee.jpg" >
+            <p id="time">영업시간 : 오전 9시 ~밤 10시</p>
+            <div id="holiday" class="day">휴무 : 매주 수요일
+            <span>(수요일이 공휴일일 경<br>우 수요일 영업. 다음날 휴무)</span></div>
+        </div>
+        <div id="where">오시는 길</div>
+        <div id="recommnd">이 달의 추천</div>
+    </div>
+</body>
+</html>

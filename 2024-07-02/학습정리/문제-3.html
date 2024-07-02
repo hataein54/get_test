@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0 ;
+            width: 100vw;
+            height: 100vh;
+            align-content: center;
+        }
+        #wrapper{
+            display: flex;
+            flex-direction: column;
+            height: 500px;
+        }
+        
+        header{
+            background-color: blue;
+            width: 70%;
+            flex-grow: 1;
+            margin: 0 auto;
+        }
+        #main{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-grow: 2;
+        }
+        nav{
+            background-color: yellow;
+            width: 40%;
+        }
+        aside{
+            background-color: green;
+            width: 30%;
+        }
+        footer{
+            background-color: red;
+            width: 70%;
+            flex-grow: 1;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <header>헤더</header>
+        <div id="main">
+            <nav>본문</nav>
+            <aside>사이드바</aside>
+        </div>
+        <footer>푸터</footer>
+    </div>
+</body>
+</html>
